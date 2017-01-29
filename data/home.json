@@ -1,0 +1,62 @@
+[{
+	"sliderurls":[
+		 "img/pov.png",
+		 "img/pov.png",
+		 "img/pov.png",
+		 "img/pov.png"
+	],
+	"welcomes": {
+		"title": "Welcome to Modern Business",
+		"sections":[
+			{
+				"class": "fa-check",
+				"name": "Bootstrap v3.3.7",
+				"content": "Lorem ipsum dolor sit amet, conssdfsdfsdfectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?",
+				"button": "Learn More"
+			},
+			{
+				"class": "fa-gift",
+				"name": "Free & Open Source",
+				"content": "Lorem ipsum dolor sit asdadamet, conssfqaectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?",
+				"button": "Learn More"
+			},
+			{
+				"class": "fa-compass",
+				"name": "Easy to Use",
+				"content": "Lorem ipsum dolodfgdfgr sit amet, consdectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?",
+				"button": "Learn More"
+			}
+		]
+	},
+	"portfolios":{
+		"title":"Portfolio Heading",
+		"portfolioimg":[
+			"img/test.jpg",
+			"http://placehold.it/700x450",
+			"http://placehold.it/700x450",
+			"http://placehold.it/700x450",
+			"http://placehold.it/700x450",
+			"http://placehold.it/700x450"
+		]
+	},
+	"features":{
+		"title": "Modern Business Features",
+		"subtitle":"The Modern Business template by Start Bootstrap includes:",
+		"lists":[
+			"Bootstrap v3.3.7",
+			"jQuery v1.11.1",
+			"Font Awesome v4.2.0",
+			"Working PHP contact form with validation",
+			"Unstyled page elements for easy customization",
+			"17 HTML pages"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.",
+		"featuresimg":"http://placehold.it/700x450"	
+	},
+	"calltoaction":{
+		"action": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.",
+		"buttontxt": "Call to Action"
+	}
+
+	
+}]

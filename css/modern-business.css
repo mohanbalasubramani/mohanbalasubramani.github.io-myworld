@@ -1,0 +1,141 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+}
+/*Slick*/
+.slick-prev {
+  left: 0;
+  background-image: url(../img/arr-left.png);
+  background-repeat: no-repeat;
+  height: 81px;
+  width: 42px;
+  background-size: 20%;
+  top: 36%; 
+  border: 1px solid #000;
+}
+.slick-next {
+  border: 1px solid #000;
+  right:  0;
+  background-image: url(../img/arr-right.png);
+  background-repeat: no-repeat;
+  height: 81px;
+  width: 42px;
+  background-size: 20%;
+  top: 36%;
+} 
+.slickwrapper img{
+    width: 100%;
+}
+.help-block{
+    color: red;
+}
+.results ul{
+  padding: 0
+}
+.results li {
+  list-style: none;
+  background-color: #ddd; 
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.results li a {
+  text-decoration: none;
+}
+.results{
+  padding-top:10px; 
+}
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}

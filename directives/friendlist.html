@@ -1,0 +1,18 @@
+<div class="row">
+	<h3>Add 5 friends names </h3>
+	<div class="friendswrap">
+		<ul>
+			<li ng-repeat="friend in friendslist">{{friend.inputboxkey1}}-{{friend.inputboxkey2}}<span class="pull-right" ng-click="remove($index)">Remove</span></li>
+		</ul>
+	</div>
+    <div class="col-xs-12 col-sm-6"> 
+        <input type="text" class="form-control" maxlength="50" name="medicationName" ng-model="inputbox1"> 
+        <p ng-show="inputbox1.$untouched && inputbox1.$dirty">error</p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <input type="text" class="form-control" maxlength="20" name="medicationStrength" ng-model="inputbox2">
+    </div>
+    <div class="col-xs-12 col-sm-3" ng-hide="friendslist.length >= 5">
+  	<button type="button" class="btn btn-dsm-red" ng-click="add()">Add</button>
+    </div>
+</div>

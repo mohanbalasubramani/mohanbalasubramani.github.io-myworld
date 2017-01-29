@@ -1,0 +1,23 @@
+[{
+	"pageinfo":{
+		"title": "Contact",
+		"subheading":"Contact Details"
+	},
+	"contactdetails":{
+		"title": "Contact Details",
+		"address": "3481 Melrose Place",
+		"city": "Beverly Hills, CA 90210",
+		"phoneclass": "fa-phone",
+		"phonenumber": "(123) 456-7890",
+		"envelopclass": "fa-envelope-o",
+		"email": "mohan_krish18@yahoo.in",
+		"clockclass": "fa-clock-o",
+		"dataandtime": "Monday - Friday: 9:00 AM to 5:00 PM"
+	},
+	"socialshares":{
+		"fb":"fa-facebook-square",
+		"linked":"fa-linkedin-square",
+		"twitter":"fa-twitter-square",
+		"googleplus":"fa-google-plus-square"
+	}
+}]

@@ -1,0 +1,128 @@
+[{
+	"pageinfo" : {
+	"heading" : "Services ",
+	"subheading" : "Services About the Company",
+	"banner":"http://placehold.it/1200x300"
+	},
+	"services":{
+		"title":"Services Panel",
+		"servicesection":[
+			{
+				"class":"fa-tree",
+				"servicestype":"Services one",
+				"servicesdescription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"buttontxt": "Learn More"
+			},
+			{
+				"class":"fa-car",
+				"servicestype":"Services two",
+				"servicesdescription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"buttontxt": "Learn More"
+			},
+			{
+				"class":"fa-support",
+				"servicestype":"Services three",
+				"servicesdescription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"buttontxt": "Learn More"
+			},
+			{
+				"class":"fa-database",
+				"servicestype":"Services four",
+				"servicesdescription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"buttontxt": "Learn More"
+			}
+		] 
+	},
+	"servicetab":{
+		"title": "Service Tabs",
+		"tabdetails":[
+			{
+				"name": "Service One",
+				"class": "fa-tree",
+				"contentname": "Service One",
+				"contentdetails": [
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.",
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperioressdf."
+				]
+			},
+			{
+				"name": "Service two",
+				"class": "fa-car",
+				"contentname": "Service two",
+				"contentdetails": [
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.",
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperioressdf."
+				]
+			},
+			{
+				"name": "Service three",
+				"class": "fa-support",
+				"contentname": "Service three",
+				"contentdetails": [
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.",
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperioressdf."
+				]
+			},
+			{
+				"name": "Service four",
+				"class": "fa-database",
+				"contentname": "Service four",
+				"contentdetails": [
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.",
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperioressdf."
+				]
+			}
+		]
+	},
+	"servicelist":{
+		"title":"Service List",
+		"serdetails":[
+			{
+				"class": "fa-tree",
+				"title": "Service One",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum."
+			},
+			{
+				"class": "fa-car",
+				"title": "Service two",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum."
+			},
+			{
+				"class": "fa-support",
+				"title": "Service three",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum."
+			},
+			{
+				"class": "fa-database",
+				"title": "Service four",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum."
+			},
+			{
+				"class": "fa-bomb",
+				"title": "Service five",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum."
+			},
+			{
+				"class": "fa-bank",
+				"title": "Service six",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum."
+			},
+			{
+				"class": "fa-paper-plane",
+				"title": "Service seven",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum."
+			},
+			{
+				"class": "fa-space-shuttle",
+				"title": "Service eight",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum."
+			},
+			{
+				"class": "fa-recycle",
+				"title": "Service nine",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum."
+			}
+		]
+	}
+
+}]

@@ -1,0 +1,98 @@
+[{
+	"pageinfo" : {
+		"heading" : "About",
+		"subheading" : "A Quick Intro About the Company"
+	},
+	"intro":{
+		"title" : "About Modern Business",
+		"titledescription":[
+			"Lorem ipsum dolor sit amet. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiatsdfdfg.",
+			"Lorem ipsum dolor sit amet. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiatsdf.",
+			"Lorem ipsum dolor sit amet. Sed voluptate nihil eum consectetur similique? Consectetusdmnfbsdfr."
+		],
+		"titleimage" : "http://placehold.it/750x450"
+	},
+	"team" : {
+		"title":"Our Team",
+		"members":[
+				{
+					"thumb":"http://placehold.it/750x450",
+					"name":"Mohan",
+					"role":"Developer",
+					"description":"Lorem ipsum dolor sit amet. Sed voluptate nihil eum consectetur similique? Consectetur.",
+					"socialinks": {
+						"fb" : "https://www.facebook.com/Mohanbalasubramani",
+						"twitter": "https://www.twitter.com/Mohanbalasubramani",
+						"linkedin" :"https://www.linkedin.com/Mohanbalasubramani"
+					}
+				},
+				{
+					"thumb":"http://placehold.it/750x450",
+					"name":"Mohan",
+					"role":"Developer",
+					"description":"Lorem ipsum dolor sit amet. Sed voluptate nihil eum consectetur similique? Consectetur.",
+					"socialinks": {
+						"fb" : "https://www.facebook.com/Mohanbalasubramani",
+						"twitter": "https://www.twitter.com/Mohanbalasubramani",
+						"linkedin" :"https://www.linkedin.com/Mohanbalasubramani"
+					}
+				},
+				{
+					"thumb":"http://placehold.it/750x450",
+					"name":"Mohan",
+					"role":"Developer",
+					"description":"Lorem ipsum dolor sit amet. Sed voluptate nihil eum consectetur similique? Consectetur.",
+					"socialinks": {
+						"fb" : "https://www.facebook.com/Mohanbalasubramani",
+						"twitter": "https://www.twitter.com/Mohanbalasubramani",
+						"linkedin" :"https://www.linkedin.com/Mohanbalasubramani"
+					}
+				},
+				{
+					"thumb":"http://placehold.it/750x450",
+					"name":"Mohan",
+					"role":"Developer",
+					"description":"Lorem ipsum dolor sit amet. Sed voluptate nihil eum consectetur similique? Consectetur.",
+					"socialinks": {
+						"fb" : "https://www.facebook.com/Mohanbalasubramani",
+						"twitter": "https://www.twitter.com/Mohanbalasubramani",
+						"linkedin" :"https://www.linkedin.com/Mohanbalasubramani"
+					}
+				},
+				{
+					"thumb":"http://placehold.it/750x450",
+					"name":"Mohan",
+					"role":"Developer",
+					"description":"Lorem ipsum dolor sit amet. Sed voluptate nihil eum consectetur similique? Consectetur.",
+					"socialinks": {
+						"fb" : "https://www.facebook.com/Mohanbalasubramani",
+						"twitter": "https://www.twitter.com/Mohanbalasubramani",
+						"linkedin" :"https://www.linkedin.com/Mohanbalasubramani"
+					}
+				},
+				{
+					"thumb":"http://placehold.it/750x450",
+					"name":"Mohan",
+					"role":"Developer",
+					"description":"Lorem ipsum dolor sit amet. Sed voluptate nihil eum consectetur similique? Consectetur.",
+					"socialinks": {
+						"fb" : "https://www.facebook.com/Mohanbalasubramani",
+						"twitter": "https://www.twitter.com/Mohanbalasubramani",
+						"linkedin" :"https://www.linkedin.com/Mohanbalasubramani"
+					}
+				}
+		]
+	},
+	"clients" : {
+		"title": "Our Customers",
+		"clientimages": [
+			"http://placehold.it/500x301",
+			"http://placehold.it/500x301",
+			"http://placehold.it/500x301",
+			"http://placehold.it/500x301",
+			"http://placehold.it/500x301",
+			"http://placehold.it/500x301"
+		]
+	}
+
+}]

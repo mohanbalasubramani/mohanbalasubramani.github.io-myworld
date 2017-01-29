@@ -1,0 +1,94 @@
+  <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">{{data.pageinfo.heading}}
+                    <small>{{data.pageinfo.subheading}}</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#/">Home</a>
+                    </li>
+                    <li class="active">Services</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Image Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" src={{data.pageinfo.banner}} alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Service Panels -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">{{data.services.title}}</h2>
+            </div>
+            <div class="col-md-3 col-sm-6" ng-repeat = "service in data.services.servicesection">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-stack-1x fa-inverse {{service.class}}"></i>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>{{service.servicestype}}</h4>
+                        <p>{{service.servicesdescription}}</p>
+                        <a href="javascript:;" class="btn btn-primary">{{service.buttontxt}}</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Service Tabs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">{{data.servicetab.title}}</h2>
+            </div>
+            <div class="col-lg-12">
+
+                <ul id="myTab" class="nav nav-tabs nav-justified" ng-init="currenttab=0">
+                    <li class="" ng-class="{'active': currenttab==$index}" ng-click="onClick($index);"   ng-repeat="tabdetail in data.servicetab.tabdetails"><a href="javascript:;"><i class="fa {{tabdetail.class}}"></i>{{tabdetail.name}}</a>
+                    </li> 
+                </ul> 
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane" ng-class="{'in active fade': currenttab==$index}"  ng-repeat="tabdetail in data.servicetab.tabdetails"> 
+                        <h4>{{tabdetail.name}}</h4>
+                        <p ng-repeat="tabdetailcnt in tabdetail.contentdetails">{{tabdetailcnt}}</p> 
+                    </div> 
+                </div> 
+            </div>
+        </div>
+
+        <!-- Service List -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Service List</h2>
+            </div>
+            <div class="col-md-4" ng-repeat = "servicelists in data.servicelist.serdetails">
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa {{servicelists.class}} fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{servicelists.title}}</h4>
+                        <p>{{servicelists.content}}</p>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+        <!-- /.row -->
+ 
+
+    </div>

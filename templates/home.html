@@ -1,0 +1,90 @@
+<!-- Header Carousel -->
+    <header>
+        <div class="slickwrapper">
+        <slick dots=false arrow=true adaptiveHeight=true  autoplay=true fade=true>
+            <div><img class="img-responsive" src=img/mohan-pov.jpg alt="pov" ></div> 
+            <div><img class="img-responsive" src=img/mathi-pov.jpg alt="pov" ></div> 
+            <div><img class="img-responsive" src=img/bala-pov.jpg alt="pov" ></div> 
+            <div><img class="img-responsive" src=img/naweed-pov.jpg alt="pov" ></div> 
+            <div><img class="img-responsive" src=img/govi-pov.jpg alt="pov" ></div> 
+        <slick>
+    </div>
+    </header>
+   <!-- Page Content -->
+    <div class="container"> 
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    {{data.welcomes.title}}
+                </h1>
+            </div>
+            <div class="col-md-4" ng-repeat="welcome in data.welcomes.sections">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw" ng-class="welcome.class"></i> {{welcome.name}}</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>{{welcome.content}}</p>
+                        <a href="javascript:;" class="btn btn-default">{{welcome.button}}</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">{{data.portfolios.title}}</h2>
+            </div>
+            <div class="col-md-4 col-sm-6" ng-repeat="portfolio in data.portfolios.portfolioimg track by $index">
+                <a href="javascript:;">
+                    <img class="img-responsive img-portfolio img-hover" src={{portfolio}} alt="portfolioimg">
+                </a> 
+            </div> 
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">{{data.features.title}}</h2>
+            </div>
+            <div class="col-md-6">
+                <p>{{data.features.subtitle}}</p>
+                <ul>
+                    <li ng-repeat="list in data.features.lists">{{list}}</li>
+                </ul>
+                <p>{{data.features.description}}</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src={{data.features.featuresimg}} alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>{{data.calltoaction.action}}</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-default btn-block" href="javascript:;">{{data.calltoaction.buttontxt}}</a>
+                </div>
+            </div>
+        </div>
+
+        <hr> 
+
+    </div>
+    <!-- /.container -->
+
+     <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+    </script>
